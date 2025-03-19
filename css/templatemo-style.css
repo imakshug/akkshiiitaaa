@@ -7,7 +7,9 @@ http://www.templatemo.com/tm-498-stimulus
 */
 
 body {
-	background: #ffffff;
+	/* background: #ffffff; */
+  background: rgb(255,255,255);
+background: linear-gradient(298deg, rgba(255,255,255,1) 0%, rgba(246,238,215,1) 100%);
     /* font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 	font-weight: 300; */
@@ -151,7 +153,9 @@ footer {
 
 #experience,
 #education {
-  background: #3C0000;
+  /* background: #3C0000; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
 }
 
 .background-image {
@@ -181,15 +185,21 @@ footer {
 }
 
 .bg-yellow {
-  background: #482d21;
+   /* background: #482d21; */
+   background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
+   
 }
 
 .bg-white {
   background: #ffffff;
+  
 }
 
 .bg-dark {
-  background: #161616;
+  /* background: #161616; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
 }
 
 
@@ -361,7 +371,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #EAE0D5;
+  /* background: #EAE0D5; */
+  background: rgb(234,224,213);
+background: linear-gradient(120deg, rgba(234,224,213,1) 0%, rgba(249,229,176,1) 100%);
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
@@ -404,14 +416,18 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: rgb(234,224,213);
+background: linear-gradient(0deg, rgba(234,224,213,1) 0%, rgba(255,255,255,1) 100%);
   border-radius: 0px;
   box-shadow: none;
   height: 2px;
 }
 
 #about .progress-bar-primary {
-  background: #232B2B;
+  /* background: #232B2B; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
 }
 
 #about strong,
@@ -428,7 +444,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #service {
-  background: #22333B;
+  /* background: #22333B; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
 }
 
 #service p {
@@ -454,7 +472,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #projects {
-  background: #3C0000;
+  /* background: #3C0000; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
 }
 
 #projects p {
@@ -499,7 +519,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #22333b;
+  /* background: #22333b; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
 }
 
 #education .education-img {
@@ -560,7 +582,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #482d21;
+  /* background: #482d21; */
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
 }
 
 #contact .contact-form,
