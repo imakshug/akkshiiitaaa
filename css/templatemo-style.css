@@ -578,6 +578,42 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
 
 
 /*---------------------------------------
+    Gallery section              
+-----------------------------------------*/
+.gallery {
+  --s: 100px;  
+  --g: 10px;   
+  --f: 1;    
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  display: grid;
+  gap: var(--g);
+  /* width: calc(8*var(--s) + 10*var(--g)); */
+  aspect-ratio: 1;
+  grid-template-columns: repeat(4,auto);
+}
+
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: .35s linear;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  width:  calc(var(--s)*var(--f));
+  height: calc(var(--s)*var(--f));
+}
+
+/*---------------------------------------
     Contact section              
 -----------------------------------------*/
 
@@ -777,5 +813,12 @@ footer {
 
   footer {
     padding: 40px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+      float: right !important;
+      margin-right: -80px;
   }
 }
