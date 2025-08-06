@@ -16,10 +16,8 @@ background: linear-gradient(298deg, rgba(255,255,255,1) 0%, rgba(246,238,215,1) 
 	font-weight: 300; */
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 400;  font-style: normal;
     overflow-x: hidden;
-    border-radius: 30px;
 }
 
 html,body {
@@ -86,9 +84,7 @@ p {
 }
 
 .section-btn {
-  background-color: transparent;
-  border: 3px solid #232B2B;
-  border-radius: 100px;
+  background-color: transparent;  border: 3px solid #232B2B;
   color: #232B2B;
   font-size: 13px;
   font-weight: bold;
@@ -136,10 +132,8 @@ p {
 #education .container,
 #projects .container,
 #contact .container {
-  width: 100%;
-  padding: 0;
+  width: 100%;  padding: 0;
   margin: 0;
-  border-radius: 30px; 
 }
 
 #experience .experience-thumb,
@@ -156,16 +150,12 @@ footer {
 
 #experience,
 #education {
-  /* background: #3C0000; */
-  background: rgb(0,0,0);
+  /* background: #3C0000; */  background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
-border-radius: 30px; 
 }
 
-.background-image {
-    background-position: 50% 50% !important;
+.background-image {    background-position: 50% 50% !important;
     background-size: cover !important;
-    border-radius: 30px; 
     width: 100%;
     height: 100%;
     min-height: 82vh;
@@ -262,7 +252,6 @@ a:hover, a:active, a:focus {
 
 .spinner {
   border: 1px solid transparent;
-  border-radius: 5px;
   position: relative;
 }
 
@@ -271,12 +260,10 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
   position: absolute;
   top: 50%;
-  left: 50%;
-  width: 30px;
+  left: 50%;  width: 30px;
   height: 30px;
   margin-top: -10px;
   margin-left: -10px;
-  border-radius: 50%;
   border: 2px solid #E3AE57;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
@@ -384,9 +371,7 @@ background: linear-gradient(120deg, rgba(234,224,213,1) 0%, rgba(249,229,176,1) 
 
 #home .home-img {
   background: url('../images/about-akshita.jpg') no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  border-radius: 30px; 
+  background-size: cover;  background-position: 50% 50%;
   width: 100%;
   height: 100vh;
 }
@@ -410,9 +395,7 @@ background: linear-gradient(120deg, rgba(234,224,213,1) 0%, rgba(249,229,176,1) 
    About section              
 -----------------------------------------*/
 
-#about .about-img {
-    background: url('../images/about-img-ak.jpg') no-repeat;
-    border-radius: 30px; 
+#about .about-img {    background: url('../images/about-img-ak.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -420,11 +403,9 @@ background: linear-gradient(120deg, rgba(234,224,213,1) 0%, rgba(249,229,176,1) 
   padding: 22px 32px 32px 32px;
 }
 
-#about .progress {
-  /* background: #ffffff; */
+#about .progress {  /* background: #ffffff; */
   background: rgb(234,224,213);
 background: linear-gradient(0deg, rgba(234,224,213,1) 0%, rgba(255,255,255,1) 100%);
-  border-radius: 30px;
   box-shadow: none;
   height: 2px;
 }
@@ -444,14 +425,14 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
 
 
 
+
+
 /*---------------------------------------
     Service section              
 -----------------------------------------*/
 
-#service {
-  /* background: #22333B; */
-  border-radius: 25px; 
-  background: rgb(0,0,0);
+#service {  /* background: #22333B; */
+  /* background: rgb(0,0,0); */
 background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
 }
 
@@ -464,8 +445,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
   padding: 52px 22px 52px 22px;
 }
 
-#service .service-thumb .fa {
-  font-size: 42px;
+#service .service-thumb .fa {  font-size: 42px;
   padding-bottom: 22px;
 }
 
@@ -477,10 +457,8 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(35,43,43,1) 100%);
     Projects section              
 -----------------------------------------*/
 
-#projects {
-  /* background: #3C0000; */
-  border-radius: 25px; 
-  background: rgb(0,0,0);
+#projects {  /* background: #3C0000; */
+  /* background: rgb(0,0,0); */
 background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
 }
 
@@ -504,7 +482,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
 -----------------------------------------*/
 
 #experience .experience-img {
-  border-radius: 30px; 
   background: url('../images/ex-isro.jpg') no-repeat;
 }
 
@@ -528,14 +505,12 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(60,0,0,1) 100%);
 
 #education {
   /* background: #22333b; */
-  background: rgb(0,0,0);
-  border-radius: 30px; 
+  /* background: rgb(0,0,0); */
 background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
 }
 
 #education .education-img {
   background: url('../images/education-ak.jpg') no-repeat;
-  border-radius: 30px; 
 }
 
 #education .media-heading {
@@ -561,7 +536,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
 #quotes {
     background: url('../images/quotes-ak.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
-    border-radius: 30px; 
     background-position: center center;
     color: #ffffff;
     position: relative;
@@ -600,7 +574,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  border-radius: 30px; 
 
   display: grid;
   gap: var(--g);
@@ -618,7 +591,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
   cursor: pointer;
   filter: grayscale(100%);
   transition: .35s linear;
-  border-radius: 30px; 
+  border-radius: 30px;
   background: #000;
 }
 
@@ -634,7 +607,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,51,59,1) 100%);
 
 #contact {
   /* background: #482d21; */
-  border-radius: 30px; 
   background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
 }
@@ -642,7 +614,6 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  border-radius: 30px; 
   min-height: 74vh;
 }
 
@@ -653,9 +624,8 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
 
 .map-container {
   width: 100%;  
-  max-width: 500px;  /* Adjust width */
-  height: 90%;  /* Adjust height */  
-  border-radius: 30px; 
+  max-width: 100%;  /* Adjust width */
+  height: 100%;  /* Adjust height */  
   overflow: hidden;  
    
 }
@@ -678,43 +648,43 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,45,33,1) 100%);
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #c6ac8f;
+  border-bottom: 1px solid #f0f0f0;
   border-radius: 0px;
   box-shadow: none;
+  outline: none;
   color: #ffffff;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  transition: all 0.4s ease-in-out;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 2px;
 }
 
 #contact .form-control:focus {
-  border-bottom-color: #ffffff;
+  border-bottom: 1px solid #f9f9f9;
 }
 
-#contact input {
-  height: 45px;
+#contact .section-btn {
+  background: #120c01;
+  border: 1px solid #120c01;
+  border-radius: 0px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px 0px 15px 0px;
+  padding: 0px 25px;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
 }
 
-#contact input[type="submit"] {
-  background: #ffffff;
-  border: 2px solid transparent;
-  border-radius: 40px;
-  color: #161616;
-  padding-bottom: 10px;
-}
-
-#contact input[type="submit"]:hover {
+#contact .section-btn:hover,
+#contact .section-btn:focus {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
 }
-
-#contact .fa {
-  padding-right: 10px;
-}
-
-
 
 /*---------------------------------------
    Footer section              
@@ -745,7 +715,6 @@ footer {
 .social-icon li a {
     border: 2px solid transparent;
     color: #999;
-    border-radius: 100px;
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
@@ -840,3 +809,13 @@ footer {
       margin-right: -80px;
   }
 }
+
+
+
+
+
+
+
+
+
+
